@@ -1,0 +1,27 @@
+/*
+Theme Name:     Twenty Seventeen Child
+Description:    Child theme for the Twenty Seventeen theme 
+Author:         Q
+Author URI:     https: //qxx.hk
+Template:       twentyseventeen
+*/
+
+@import url("../twentyseventeen/style.css");
+
+.blog:not(.has-sidebar) #primary article,
+	.archive:not(.page-one-column):not(.has-sidebar) #primary article,
+	.search:not(.has-sidebar) #primary article,
+	.error404:not(.has-sidebar) #primary .page-content,
+	.error404.has-sidebar #primary .page-content,
+	body.page-two-column:not(.archive) #primary .entry-content,
+	body.page-two-column #comments {
+		float: center;
+		width: 100%;
+	}
+
+.site-info {
+	text-align: center;
+	float: none;
+	padding: 0.7em 0 0;
+	width: 100%;
+}
